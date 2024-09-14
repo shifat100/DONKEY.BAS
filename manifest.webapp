@@ -1,0 +1,25 @@
+{
+  "version": "1.0.1",
+  "name": "DONKEY.BAS",
+  "description": "DONKEY.BAS is a simple driving game in which the player controls a car but cannot steer, accelerate or brake, only changing lanes to avoid a series of donkeys on the road. There is no goal other than to avoid donkeys.",
+  "launch_path": "/index.html",
+ "type": "web",
+  "icons": {
+    "56": "/icons/56.png",
+    "112": "/icons/112.png",
+    "128": "/icons/128.png" },
+"fullscreen": "true",
+  "developer": {
+    "name": "shifat100",
+    "url": "http://shifat100.xtgem.com/"
+  }, 
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "DONKEY.BAS",
+      "subtitle": "A Nostalogia Game",
+      "description": "DONKEY.BAS is a simple driving game in which the player controls a car but cannot steer, accelerate or brake, only changing lanes to avoid a series of donkeys on the road. There is no goal other than to avoid donkeys."
+    }
+  },
+"cursor": false
+}

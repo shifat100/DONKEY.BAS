@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="kaiads.v5.min.js"></script>
+<script src="files/wwwbasic.js"></script>
+<script type="text/basic" src="files/donkey.bas"></script>
+<script>
+    
+document.addEventListener('DOMContentLoaded', () => {
+
+ getKaiAd({ publisher: '080b82ab-b33a-4763-a498-50f464567e49', app: 'DONKEY.BAS', slot: 'DONKEY.BAS', onerror: err => console.error('Custom catch:', err), onready: ad => { ad.call('display'); } }); });
+
+document.body.addEventListener('keyup', (e) => { getKaiAd({ publisher: '080b82ab-b33a-4763-a498-50f464567e49', app: 'DONKEY.BAS', slot: 'DONKEY.BAS', onerror: err => console.error('Custom catch:', err), onready: ad => { ad.call('display'); } }); 
+if(e.key == '0') {
+    window.close();
+}
+});
+
+</script>
